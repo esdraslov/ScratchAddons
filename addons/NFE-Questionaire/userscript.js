@@ -1,7 +1,7 @@
 export default async function ({addon, msg, console}) {
     const publishButton = document.querySelectorAll('.menu-bar_menu-bar-item_oLDa-')[1];
 
-    publishButton?.addEventListener("click", () => {
+    publishButton.addEventListener("click", () => {
         let violenceSmall = confirm("your project contains violence (small/rare)?\n\nthis don't means\n- death by snowball (may impossible)")
         let violenceLarge = confirm("your project contains violence (large/common)?")
         let violence = violenceSmall || violenceLarge
