@@ -1,0 +1,29 @@
+{
+    "name": "NFE questionaire",
+    "credits": [
+        {
+            "name": "esdraslov",
+            "link": "https://scratch.mit.edu/users/esdraslov/"
+        }
+    ],
+    "description": "a questionaire for check if your PROJECT is allowed for show at the main page, search results and profile",
+    "info": [
+        {
+            "type": "info",
+            "text": "NFE means Not For Everyone, if your project is rated NFE, you can't see it in the main page, search results and profile, otherwise, will be rated as FE",
+            "id": "NFE-FE-RATE"
+        }
+    ],
+    "tags": [
+        "community",
+        "projectPage",
+        "editor",
+        "codeEditor"
+    ],
+    "userscripts": [
+        {
+            "url": "userscript.js",
+            "matches": ["https://scratch.mit.edu/project/*/editor"]
+        }
+    ]
+}
