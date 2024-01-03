@@ -7,6 +7,7 @@
         }
     ],
     "description": "a questionaire for check if your PROJECT is allowed for show at the main page, search results and profile",
+    "versionAdded": "1.36.0",
     "info": [
         {
             "type": "info",
